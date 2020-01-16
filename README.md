@@ -39,3 +39,21 @@ cd ..
 ```
 $ pytest -v tests/
 ```
+
+## Deployment
+
+install prerequisites
+```
+npm install
+```
+
+deploy locally
+```
+npm run ganache & >/dev/null
+npm run deploy
+```
+
+deploy to other networks
+```
+npm run deploy:ropsten
+```

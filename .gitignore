@@ -6,3 +6,7 @@ __pycache__/
 .pytest_cache/
 env/
 vyper/
+node_modules/
+build/
+.idea/
+.env

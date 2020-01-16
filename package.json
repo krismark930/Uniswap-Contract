@@ -1,0 +1,24 @@
+{
+  "name": "uniswap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "ganache": "./node_modules/.bin/ganache-cli",
+    "deploy": "./node_modules/.bin/truffle deploy",
+    "deploy:ropsten": "./node_modules/.bin/truffle deploy --network ropsten"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "truffle-hdwallet-provider": "0.0.6"
+  },
+  "devDependencies": {
+    "ganache-cli": "^6.1.8",
+    "truffle": "^5.0.2"
+  }
+}
