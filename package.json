@@ -9,7 +9,8 @@
   "scripts": {
     "ganache": "./node_modules/.bin/ganache-cli",
     "deploy": "./node_modules/.bin/truffle deploy",
-    "deploy:ropsten": "./node_modules/.bin/truffle deploy --network ropsten"
+    "deploy:ropsten": "./node_modules/.bin/truffle deploy --network ropsten",
+    "deploy:rskTestnet": "./node_modules/.bin/truffle deploy --network rskTestnet"
   },
   "author": "",
   "license": "ISC",
