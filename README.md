@@ -44,6 +44,7 @@ $ pytest -v tests/
 
 install prerequisites
 ```
+nvm use
 npm install
 ```
 

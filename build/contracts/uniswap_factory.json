@@ -170,6 +170,31 @@
       "address": "0x514fB493555f4C66cB4bf6481aa9c7b9b42d4766",
       "transactionHash": "0x71272698a1f83fdd1af1ba2bcc4ee338a0858459a934d784a955346c83354b0a"
     },
+    "30": {
+      "links": {},
+      "address": "0xDcC0B6783E1eB0013a5B919128058E9D24126db1",
+      "transactionHash": "0x62ffc4fc9033b20c9a65bc05e29c8b9b3d9dfa73cb4938401af96a6ff96603ff",
+      "events": {
+        "0x9d42cb017eb05bd8944ab536a8b35bc68085931dd5f4356489801453923953f9": {
+          "name": "NewExchange",
+          "inputs": [
+            {
+              "type": "address",
+              "name": "token",
+              "indexed": true
+            },
+            {
+              "type": "address",
+              "name": "exchange",
+              "indexed": true
+            }
+          ],
+          "anonymous": false,
+          "type": "event",
+          "signature": "0x9d42cb017eb05bd8944ab536a8b35bc68085931dd5f4356489801453923953f9"
+        }
+      }
+    },
     "31": {
       "events": {
         "0x9d42cb017eb05bd8944ab536a8b35bc68085931dd5f4356489801453923953f9": {
@@ -222,6 +247,6 @@
     }
   },
   "schemaVersion": "3.0.20",
-  "updatedAt": "2020-04-09T01:33:24.857Z",
+  "updatedAt": "2020-04-09T12:45:36.228Z",
   "networkType": "ethereum"
 }
