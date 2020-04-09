@@ -1,11 +1,10 @@
 require('dotenv').config();
-
 const HDWalletProvider = require("truffle-hdwallet-provider");
 const mnemonic = process.env.MNEMONIC;
 const infuraKey = process.env.INFURA_ACCESS_TOKEN;
 const gasPrice = process.env.GAS_PRICE || 1000000000;
-const ropstenUrl = "https://ropsten.infura.io/" + infuraKey;
-const mainnetUrl = "https://mainnet.infura.io/" + infuraKey;
+var ropstenUrl = "https://ropsten.infura.io/v3/" + infuraKey;
+var mainnetUrl = "https://mainnet.infura.io/v3/" + infuraKey;
 
 module.exports = {
   solc: {
@@ -33,12 +32,12 @@ module.exports = {
     rskTestnet: {
       provider: new HDWalletProvider(mnemonic, "https://public-node.testnet.rsk.co"),
       network_id: '*',
-      gasPrice: gasPrice
+      gasPrice: 61000000
     },
     rsk: {
       provider: new HDWalletProvider(mnemonic, "https://public-node.rsk.co"),
       network_id: '*',
-      gasPrice: gasPrice
+      gasPrice: 61000000
     }
   }
 };

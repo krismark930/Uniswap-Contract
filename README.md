@@ -55,5 +55,5 @@ npm run deploy
 
 deploy to other networks
 ```
-npm run deploy:ropsten
+npm run deploy:rskTestnet
 ```

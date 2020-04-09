@@ -7,6 +7,5 @@ __pycache__/
 env/
 vyper/
 node_modules/
-build/
 .idea/
 .env
