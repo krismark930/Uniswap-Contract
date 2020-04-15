@@ -6,9 +6,9 @@
 * Slack: [uni-swap.slack.com/](https://join.slack.com/t/uni-swap/shared_invite/enQtNDYwMjg1ODc5ODA4LWEyYmU0OGU1ZGQ3NjE4YzhmNzcxMDAyM2ExNzNkZjZjZjcxYTkwNzU0MGE3M2JkNzMxOTA2MzE2ZWM0YWQwNjU)
 * Whitepaper: [Link](https://hackmd.io/C-DvwDSfSxuh-Gd4WKE_ig)
 
-## Installation:
+## Installation
 
-#### Requires [Python 3](https://www.python.org/download/releases/3.0/)
+Requires [Python 3](https://www.python.org/download/releases/3.0/)
 
 1) Clone Uniswap
 ```
@@ -54,7 +54,19 @@ npm run ganache & >/dev/null
 npm run deploy
 ```
 
-deploy to other networks
+deploy to the RSK testnet (this requires having account MNEMONIC in `.env`)
 ```
 npm run deploy:rskTestnet
+```
+
+and mainnet
+
+```
+npm run deploy:rsk
+```
+
+already deployed contracts can be managed by console
+
+```
+npx truffle console --network rsk
 ```
